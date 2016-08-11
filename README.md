@@ -2,6 +2,9 @@
 
 A script which automates the blue\green deployment process. The script uses a finite state machine which transitions through deployment states.
 
+#### Hard Assumptions
+This script assumes you have two ASG's, one named [service_name]-blue and one named [service_name]-green. The naming convention can be altered in the script, it is defined by constants. We assume that one ASG is not connected to a load balancer and that this same ASG has 0 instances in it. If this ASG has more then 0 instances, we cannot determine which ASG is the target one, and the script exists. 
+
 #### Installation
 Make sure you have python3 and pip3 installed on your workstation.
 Run the following command:
