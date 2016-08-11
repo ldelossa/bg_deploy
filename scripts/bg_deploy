@@ -1,8 +1,0 @@
-#!/usr/bin/env python3
-
-import bg_deploy.cli as cli
-import sys
-
-if __name__ == '__main__':
-
-    cli.main(sys.argv[1:])
