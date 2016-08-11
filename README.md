@@ -6,10 +6,6 @@ A script which automates the blue\green deployment process. The script uses a fi
 Make sure you have python3 and pip3 installed on your workstation.
 Run the following command:
 
-```
-sudo pip3.4 install --extra-index-url https://devpi.longtailvideo.com/root/ltv/+simple/ bg_deploy
-```
-
 You should now have the bg_deploy binary in your path.
 
 #### Usage
