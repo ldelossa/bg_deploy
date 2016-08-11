@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bg-deploy
+Version: 1.0.1
+Summary: Blue Green Deployment Script
+Home-page: https://github.com/jwplayer/operations/bg_deploy
+Author: Louis DeLosSantos
+Author-email: louis@jwplayer.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
